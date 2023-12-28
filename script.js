@@ -15,7 +15,7 @@ $('table tr td').click(function () {
                 $('body').append('<div class="winner"><p>Winner</p>X</div>');
                 $('.winner').css('font-size', '40px');
                 $('.winner').css('text-align', 'center');
-            } else {
+            } else if(winner() == "O"){
                 $('body').append('<div class="winner"><p>Winner</p>O</div>');
                 $('.winner').css('font-size', '40px');
                 $('.winner').css('text-align', 'center');
